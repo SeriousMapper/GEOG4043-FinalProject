@@ -25,7 +25,11 @@ Code Version:
 Project Description: Stuff with transport or NPS?
 
 
-Team Members: Jordan, Justin, McClain, Jeremy  
+Team Members:  
+1. Jordan  
+2. Justin  
+3. McClain  
+4. Jeremy   
 Final Proposal  
 Persona/Scenario  
 
