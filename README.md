@@ -9,9 +9,9 @@ Title: GEOG4043 Final Project
 Authors: McClain, Jason, Jeremy, Jordan
 
 Dependencies:
-  jQuery 3.6.0
-  D3.js
-  Leaflet 1.6
+  jQuery 3.6.0<br/>
+  D3.js<br/>
+  Leaflet 1.6<br/>
 
 Code Version:
   Last Updated:
