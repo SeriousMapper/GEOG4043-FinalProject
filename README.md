@@ -29,12 +29,13 @@ Team Members:
 1. Jordan  
 2. Justin  
 3. McClain  
-4. Jeremy   
-Final Proposal  
-Persona/Scenario  
+4. Jeremy  
 
-Persona  
-Scenario  
-Requirements Document  
+Final Proposal  <br />
+Persona/Scenario  <br />
 
-Wireframes  
+Persona  <br />
+Scenario  <br />
+Requirements Document  <br />
+
+Wireframes  <br />
