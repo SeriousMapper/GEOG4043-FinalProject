@@ -3,7 +3,7 @@
 <<<<<<< HEAD
 =======
 Potatos are very good <br />
-Boil em, mash em, put them in a stew <br />//test
+Boil em, mash em, put them in a stew <br />
 Edits are fun
 >>>>>>> 77e664857ddfdfd92a4dfff33dbc3196b9339e64
 
