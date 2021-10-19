@@ -3,7 +3,7 @@
 
 =======
 Potatos are very good <br />
-Boil em, mash em, put them in a stew <br />//test
+Boil em, mash em, put them in a stew <br />
 Edits are fun
 
 Title: GEOG4043 Final Project
@@ -22,4 +22,4 @@ Code Version:<br/>
 Code Version:
   Last Updated: 19 OCT 2021
 
-Project Description:
+Project Description: Stuff with transport or NPS?
