@@ -3,7 +3,7 @@
 
 =======
 Potatos are very good <br />
-Boil em, mash em, put them in a stew <br />
+Boil em, mash em, put them in a stew (Tolkien) <br />
 Edits are fun
 
 Title: GEOG4043 Final Project
