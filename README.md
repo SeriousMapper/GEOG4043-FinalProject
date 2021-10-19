@@ -25,12 +25,12 @@ Code Version:
 Project Description: Stuff with transport or NPS?
 
 
-Team Members: Jordan, Justin, McClain, Jeremy
-Final Proposal
-Persona/Scenario
+Team Members: Jordan, Justin, McClain, Jeremy  
+Final Proposal  
+Persona/Scenario  
 
-Persona
-Scenario
-Requirements Document
+Persona  
+Scenario  
+Requirements Document  
 
-Wireframes
+Wireframes  
