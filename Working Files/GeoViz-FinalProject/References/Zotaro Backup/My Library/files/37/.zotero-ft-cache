@@ -1,0 +1,161 @@
+remix logo
+Solutions
+dropdown navigation icon
+Customers
+Resources
+dropdown navigation icon
+Company
+dropdown navigation icon
+EN
+dropdown navigation icon
+Log in
+dropdown navigation icon
+Schedule a demo
+
+Platform
+
+•
+
+Aug 28, 2019
+Visualizing Transit Ridership in Remix: Our Design Process
+
+Chris Arvin
+
+Product Designer
+Public Transit
+Transportation
+Data Visualization
+Ridership
+Design And Development
+Product
+An example of our new “Stop Activity”feature in Remix
+
+When making improvements to a product or a service, it’s crucial to understand what the people you’re designing for are already doing — whether you’re working on software or a public transit network.
+
+At Remix, we commonly do that by interviewing our customers. For cities and transit agencies, one of the many ways they learn about existing behaviors is by evaluating ridership data. That’s why, after learning from planners, we’ve added interactive ridership data to Remix. This makes it quick and easy to learn where riders are boarding and exiting a transit line.
+How it works
+
+Once an agency has sent us their ridership data, anyone in their organization can start to analyze the usage patterns of transit lines in their network. Planners can break down ridership information by time of day, day of the week, and the directionality of each line. You can also dive deeper and get detailed numbers of how many passengers, on average, are boarding or exiting at each stop. Having this information in Remix allows you to quickly turn learnings from data into planning decisions.
+
+‍
+remix platform screenshot
+Viewing ridership data by time
+
+‍
+Our process: going from a broad problem space to an effective launch
+
+Every week, hundreds of planners use Remix to design and evaluate changes to their city’s transit network. Naturally, this means we hear many requests for new features. While it can be tempting to take these requests and start building something right away, it’s important for us to first understand them better. As a product team, it’s our job to learn about the underlying problems and challenges beneath these requests, and to get perspectives from across the variety of agencies who work with us.
+Questions first
+
+We knew ridership data was important, but we also realized there was a lot we didn’t know. What do the words “ridership data” mean for different people? How are planners analyzing the data, and how does that inform their planning decisions? And, perhaps most importantly, how can we make this process better?
+
+To get some answers, we set up video chats with transit planners from a number of cities. We talked to folks at agencies of all sizes, including those working in the U.S. and internationally.
+
+After chatting a bit about who they were and what they were working on, we dove into their process. We had the planners walk us through how they use ridership data: how they get access to it, what it looks like, what they learn from it, and what kinds of changes they make to their network based on it. We also shared a few examples of ridership data visualizations to see what resonated most with them.
+How planners are using ridership data
+
+We found that planners were using ridership data for a number of reasons:
+
+    Optimizing routes – based on the data, a planner may propose to consolidate under-used stops to make a route faster, create an express variant of a route, upgrade a route to “Bus Rapid Transit” service, or simplify a route.
+    ‍
+    Determining where to increase service – in areas getting heavy use from riders, this could mean creating new routes or increasing the frequency on existing routes.
+    ‍
+    Determining where to reduce service – where service isn’t being utilized, planners can use ridership data to justify moving those resources, like buses, where they’re more needed.
+    ‍
+    Providing context and justification – planners may use ridership data in reports or presentations to show why they’re proposing a certain change.
+    ‍
+    Stop amenity improvements – when bus stops start to increase in ridership, they warrant upgrades to amenities like bus shelters or seats. Planners use ridership data to determine where to upgrade amenities first.
+
+Making a planner’s job easier
+‍
+remix platform screenshot
+Diving into the details of stop activity in Remix.
+
+‍
+
+From our conversations, we identified the hardest parts of this process. At many agencies, there’s often only one or two people who can develop reports on ridership data. This creates a process where planners need to make requests every time they want a different cut of the data — like a different time of day — and the analyst spends a lot of time dealing with these requests. We also found that some planners are limited by time or technical skill and can’t create the kinds of visualizations that would be most useful to them.
+
+We realized that as a software company, we could use our strengths to save planners and analysts a lot of time and provide more in-depth ridership visualizations. After synthesizing our learnings, we regrouped and evaluated what a ridership feature in Remix should include:
+
+    Stop-level rider activity for each route — there are a lot of ways we could break down the data, but we learned the highest priority visualization was at stop-level granularity, showing how many passengers on average were boarding or exiting at each stop
+    ‍
+    Customizability —to get the full picture of what’s happening, planners need to know what’s happening at different times of day, different days of the week, and in each direction of a route.
+    ‍
+    Detailed metrics — visualizations are great, but to have confidence in their decision-making, planners need to be able to dive in and get the real, hard numbers.
+
+Get your ridership data in Remix!
+
+If you’re a planner working with Remix and want to be able to use the features we’ve talked about here, get in touch! Your customer success manager will get you all the details you need to get your agency’s boarding and alighting data into Remix.
+‍
+
+Questions or feedback? Please reach out at chris.arvin@remix.com or hello@remix.com .
+
+‍
+
+‍
+You may also like
+
+Platform
+
+•
+
+Sep 30, 2021
+Meet the New Remix
+
+Meet New Remix, designed to be more intuitive, flexible, and more powerfully multimodal.
+
+David Frances
+
+Product Manager, Remix
+
+Spenser Garden
+
+Product Designer
+
+Platform
+
+•
+
+Jul 15, 2021
+Map Gallery: Creative Examples from Remix Partners
+
+Since launching Presentation Studio, we’ve been delighted to see the creative ways in which our partner agencies are using the feature. We're proud to showcase their work with a "Map Gallery."
+
+Remix
+
+Platform
+
+•
+
+Jul 13, 2021
+Frequency Mapping in Remix Is Here!
+
+Delivering information about the quality of transit service is essential to public outreach.
+
+Sarah Bindman
+
+Product Manager
+Subscribe to our periodic mailing list
+
+Every now and again, we'll share updates and inspiration related to building livable cities from the global Remix community.
+
+You may opt-out at any time.
+
+Solutions
+Transit On-demand Scheduling Streets Shared Mobility Explore Streets & Shared Mobility Transit & Streets Data Platform
+
+Resources
+Customers Resource Library Blog Transpo Talk
+
+Company
+About Us Careers News Get in Touch Security & Trust Privacy Policy
+remix logomark
+
+Remix © 2021
+twitter logo linkedin logo
+We respect “Do Not Track”
+
+We have disabled all non-necessary cookies on our website.
+Your settings
+Close
+Powered by Legal Monster

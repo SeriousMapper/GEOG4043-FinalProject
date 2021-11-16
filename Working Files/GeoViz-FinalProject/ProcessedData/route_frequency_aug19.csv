@@ -1,0 +1,172 @@
+"","routes.route_id","routes.route_long_name","traveled"
+"1","LX2","Longmont I-25 Express",20
+"2","LX1","Longmont I-25 Express",16
+"3","FF7","Flatiron Flyer",58
+"4","FF6","Flatiron Flyer",14
+"5","FF5","Flatiron Flyer",42
+"6","225D","Boulder / Lafayette via Baseline",31
+"7","FF3","Flatiron Flyer",62
+"8","FF2","Flatiron Flyer",196
+"9","206F","Boulder Junction/ Fairview H.S.",74
+"10","133","Hampden/Tower",484
+"11","131","East Iliff / Seven Hills",88
+"12","130","Yale / Buckley",472
+"13","135","Smoky Hill Road",270
+"14","139","Quincy Avenue",206
+"15","206S","Boulder Junction/ Fairview H.S.",1
+"16","24","University Blvd",219
+"17","27","East Yale Avenue",92
+"18","20","20th Avenue",400
+"19","21","Evans Avenue",462
+"20","323","Skyline Crosstown",92
+"21","RX","Brighton / Denver",26
+"22","29","Riverbend",230
+"23","103W","Union Station to Jefferson County Government Center-Golden Station",1255
+"24","0L","South Broadway Limited",112
+"25","0","South Broadway",1038
+"26","403","Wildcat Crosstown",90
+"27","4","Morrison Road",118
+"28","401","Highlands Ranch/Mineral",94
+"29","RC","Brighton / Denver",4
+"30","109L","30th & Downing to 16th & Stout",928
+"31","8","North Broadway / Huron",198
+"32","FF4","Flatiron Flyer",112
+"33","GS","Golden / Boulder",44
+"34","120","120th Avenue / Brighton",125
+"35","121","Peoria Street",602
+"36","BOLT","Boulder / Longmont",298
+"37","128","Broomfield / Wagon Road",84
+"38","59","West Bowles",200
+"39","55","Olde Town/Arvada Ridge",50
+"40","402L","Highlands Ranch Parkway",218
+"41","51","Sheridan Blvd",432
+"42","50","Lakes Crosstown",52
+"43","53","North Sheridan",39
+"44","52","W 52nd Avenue / South Bannock",349
+"45","83L","Cherry Creek / Parker Rd Limited",520
+"46","A","Union Station to Denver Airport Station",1160
+"47","100L","Federal Center / South Kipling Ltd",44
+"48","88","Northglenn/Comm City/Central Park",316
+"49","3L","East Alameda Limited",30
+"50","80","80th Avenue",54
+"51","225T","Boulder / Lafayette via Baseline",6
+"52","3","Alameda Avenue",466
+"53","30L","South Federal Limited",26
+"54","208","Iris / Valmont",98
+"55","113B","Union Station to Westminster Station",340
+"56","113G","Union Station to Wheat Ridge Ward Station",1016
+"57","36L","Fort Logan Limited",50
+"58","101H","18th & California Station to Florida Station",1172
+"59","MALL","Free Mall Ride",3168
+"60","101D","18th & California Station to Littleton-Mineral Station",950
+"61","101E","Union Station to RidgeGate Parkway Station",1172
+"62","101F","18th & California Station to RidgeGate Parkway Station",376
+"63","101C","Union Station to Littleton-Mineral Station",618
+"64","LD2","Longmont / Denver",30
+"65","LD1","Longmont / Denver",94
+"66","EX","Evergreen / Denver",8
+"67","83D","Cherry Creek / Parker Rd Limited",120
+"68","100","Kipling Street",201
+"69","EV","Evergreen / Denver",12
+"70","ES","Evergreen / Denver",4
+"71","105","Havana Street",686
+"72","38","West 38th Avenue",440
+"73","32","West 32nd Avenue / City Park",232
+"74","31","Federal Blvd",879
+"75","30","South Federal Blvd",272
+"76","37","Smith Road Industrial",84
+"77","36","Fort Logan",182
+"78","35","Hampden Avenue",314
+"79","39L","North Colorado Limited",16
+"80","31L","North Federal Limited",6
+"81","107R_merged_112869143","RidgeGate Station to Peoria Station",536
+"82","1W","1st Avenue",2
+"83","ATA","Arapahoe County / Denver Airport",6
+"84","28","28th Avenue",276
+"85","72L","Quaker via Ward Limited",20
+"86","62","Commerce City/ Dicks SG Park",126
+"87","65","Monaco Parkway",362
+"88","66","Arapahoe Road",286
+"89","67","Ridge Road",144
+"90","145X","Brighton / Denver Airport",24
+"91","16L","West Colfax Limited",162
+"92","NB","Nederland / Boulder",64
+"93","104","West 104th Avenue",56
+"94","6","East 6th Avenue",370
+"95","BOND","30th Street",480
+"96","104X","Commerce City / Denver Express",14
+"97","205T","28th St / Gunbarrel / Heatherwood",44
+"98","J","Longmont / East Boulder / CU",18
+"99","FMR","Free MetroRide",256
+"100","N","Nederland / Boulder",64
+"101","JUMP","Boulder / Lafayette via Arapahoe",475
+"102","169","Buckley Road",312
+"103","228","Louisville / Broomfield",257
+"104","CS","Pine Junction / Conifer / Denver",4
+"105","225","Boulder / Lafayette via Baseline",328
+"106","92","92nd Avenue",267
+"107","CV","Pine Junction / Conifer / Denver",20
+"108","11","Mississippi Avenue",348
+"109","10","East 12th Avenue",553
+"110","12","Downing / N Washington",354
+"111","15","East Colfax Avenue",1184
+"112","14","West Florida Avenue",262
+"113","17","Red Rocks College",62
+"114","16","West Colfax Avenue",942
+"115","19","North Pecos",264
+"116","FF1","Flatiron Flyer",668
+"117","122X","Wagon Road / Civic Center Express",122
+"118","99","South Kipling Street",86
+"119","72_merged_112869142","72nd Avenue",73
+"120","33A","Platte Valley",8
+"121","72_merged_112869146","72nd Avenue",73
+"122","33B","Platte Valley",8
+"123","153","Chambers Road",538
+"124","80L_merged_112869141","West 80th Limited",4
+"125","157","CCA / Buckley",56
+"126","80L_merged_112869145","80th Avenue",4
+"127","112","West 112th Avenue",190
+"128","SHUZ","Anschutz Shuttle",454
+"129","TRLY","Englewood Trolley",160
+"130","236","Boulder Junction / US36 &Table Mesa",48
+"131","34","Bruce Randolph Ave",318
+"132","208F","Iris / Valmont",50
+"133","48","East 48th Avenue / Commerce City",364
+"134","107R_merged_112869139","RidgeGate Parkway Station to Peoria Station",536
+"135","46","South Dahlia",236
+"136","44","44th Avenue",302
+"137","45","Montbello via 51st/GVR",528
+"138","42","Montbello via Albrook/GVR",580
+"139","43","Martin Luther King Blvd",798
+"140","40","Colorado Boulevard",658
+"141","1","1st Avenue",270
+"142","AB1","Boulder / Denver Airport",281
+"143","AB2","Boulder / Denver Airport",30
+"144","326","Westside Crosstown",96
+"145","327","Eastside Crosstown",96
+"146","324","Main Street",208
+"147","9","West 10th Avenue",202
+"148","AA","Wagon Road / Denver Airport",256
+"149","AB","Boulder / Denver Airport",1
+"150","205","28th St / Gunbarrel / Heatherwood",328
+"151","204","Table Mesa / Moorhead / North 19th",268
+"152","206","Boulder Junction/ Fairview H.S.",26
+"153","209","CU / Mohawk Dr",80
+"154","SKIP","Broadway",868
+"155","169L","Buckley / Tower DIA Limited",62
+"156","77","Ken Caryl Avenue",86
+"157","76","Wadsworth Blvd",493
+"158","87L","South Wadsworth Limited",12
+"159","73","Quebec Street",378
+"160","AT","Arapahoe County / Denver Airport",254
+"161","Y","Lyons / Boulder",18
+"162","483","Parker Road - Lincoln Ave",78
+"163","DASH","Boulder / Lafayette via Louisville",408
+"164","120X","Wagon Road / Thornton Express",316
+"165","P","Parker / Denver",30
+"166","116X","South Simms Express",16
+"167","72W_merged_112869144","72nd Avenue",4
+"168","55L","Olde Town Arvada Limited",94
+"169","72W_merged_112869140","72nd Avenue",4
+"170","15L","East Colfax Limited",854
+"171","125","Youngfield/Ward",69
