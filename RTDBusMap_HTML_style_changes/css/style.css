@@ -1,0 +1,115 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+html,
+body,
+#map {
+  height: 700px;
+  /* width: 100%; */
+}
+
+#map {
+  border: 3px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#title {
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* daily stops text */
+#DS {
+  font-size: 25px;
+  margin-bottom: -10px;
+  margin-top: -.5px
+}
+
+/* per census tract text */
+#PCT {
+  margin-bottom: -15px;
+}
+
+/* tract info */
+#TI {
+  font-size: 22px;
+  margin-top: 9px;
+}
+
+/* time periods */
+#TP {
+  font-size: 28px;
+  margin-bottom: 35px;
+}
+
+.info {
+  padding: 6px 12px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.infoBox {
+  width: 300px;
+  height: auto;
+  padding: 12px 24px;
+  text-align: center;
+  opacity: 80%;
+}
+
+.stopText {
+  font-size: 48px;
+  padding: 10px;
+  text-align: left;
+}
+
+.legend {
+  background-color: “black”;
+  line-height: 25px;
+  color: #555;
+  width: 50%;
+}
+
+.legend i {
+  width: 24px;
+  height: 22px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+  border: .5px solid black;
+}
+
+.yearButton {
+  background-color: #dbdbdb;
+  /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  width: 100%;
+  border: 2px solid black;
+  margin-bottom: 2px;
+}
+
+.yearButton:hover {
+  background-color: rgb(116, 116, 116);
+  /* Green */
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 50px #CFB87C;
+  width: 80%;
+}
