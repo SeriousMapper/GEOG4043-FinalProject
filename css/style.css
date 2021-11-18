@@ -7,7 +7,46 @@ html,
 body,
 #map {
     height: 700px;
-    width: 100%;
+/*     width: 100%; */
+}
+
+#map {
+  border: 3px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#title {
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* daily stops text */
+#DS {
+  font-size: 25px;
+  margin-bottom: -10px;
+  margin-top: -.5px
+}
+
+/* per census tract text */
+#PCT {
+  margin-bottom: -15px;
+}
+
+/* tract info */
+#TI {
+  font-size: 22px;
+  margin-top: 9px;
+}
+
+/* time periods */
+#TP {
+  font-size: 28px;
+  margin-bottom: 35px;
 }
 
 .info {
