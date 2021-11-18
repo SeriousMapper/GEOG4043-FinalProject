@@ -54,7 +54,7 @@ function renderMyMap() {
     legend.onAdd = function (map) {
     
     var div = L.DomUtil.create('div', 'info legend');
-    labels = ['<strong>Daily Stops <br> (Per Census Tract)</strong>'],
+    labels = ['<p id="DS"><strong>Daily Stops</p><p id="PCT">(Per Census Tract)</strong></p>'],
 
     classes = [0,7,18,37,81];
     for (var i = 0; i < classes.length; i++) {
@@ -105,7 +105,7 @@ function renderMyMap() {
     
     //Update the info based on what state user has clicked on
     info.update = function (prop) {
-        this._div.innerHTML = '<h4>Tract Info</h4> <h3>'+timePeriods[selected]+"</h3>" + (prop ?
+        this._div.innerHTML = '<h4 id="TI">Tract Info</h4> <h3 id=TP>'+timePeriods[selected]+"</h3>" + (prop ?
             '<b class="stopText">' + prop + '</b> Stops/day'
             : 'Hover over an area.');
     };
