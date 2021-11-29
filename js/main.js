@@ -5,7 +5,9 @@ var geoJSON;
 var selected = 0;
 var selectedTracts = []
 var timePeriods = ["August 2019", "Pandemic", "September 2020"]
-
+var routeData = [0,0,0]
+var selectedRoute;
+var routes = true;
 var info = L.control({position: 'topright'});
 var yearInfo = L.control({position: 'bottomright'});
 var layerHighlight;
@@ -16,6 +18,29 @@ function jQueryAjax(){
     
 
     //basic jQuery ajax method
+    //Loading route data...
+    $.ajax("data/route_aug19.json", {
+        dataType: "json",
+        success: function(response){
+            routeData[0] = response;
+            console.log(routeData[0]);
+        }
+    });
+    $.ajax("data/route_pan20.json", {
+        dataType: "json",
+        success: function(response){
+            routeData[1] = response;
+            console.log(routeData[1]);
+        }
+    });
+    $.ajax("data/route_sep20dissolve.json", {
+        dataType: "json",
+        success: function(response){
+            routeData[2] = response;
+            console.log(routeData[2]);
+        }
+    });
+    //Loading Tracts Data...
     $.ajax("data/TractsFinalGeoJson.json", {
         dataType: "json",
         success: function(response){
@@ -47,6 +72,9 @@ function renderMyMap() {
         style: style,
         onEachFeature: onEachFeature
     }).addTo(map);
+    selectedRoute = L.geoJson(routeData[selected], {
+        style: route_style
+    }).addTo(map);
     console.log(geoJSON);
     /* ----------------- L E G E N D ---------------------*/
     var legend = L.control({position: 'bottomleft'});
@@ -69,6 +97,7 @@ function renderMyMap() {
     legend.addTo(map);
     info.addTo(map);
     yearInfo.addTo(map);
+    
     /* ----------------- L E G E N D ---------------------*/
     /* ----------------- WATERMARK ----------------------*/
     L.Control.Watermark = L.Control.extend({
@@ -121,7 +150,7 @@ function renderMyMap() {
         for (var i = 0; i < timePeriods.length; i++) {
             this._div.innerHTML += '<button class="yearButton" onclick="yearClick('+i+')">' + timePeriods[i] + "</button>";
         }
-
+        this._div.innerHTML += '<button class="yearButton" onclick="toggleRoutes()">' + "Toggle Routes" + "</button>";
         //the following line calls info.update(props) function. Again, this refers to 'info' here
         return this._div;
     };
@@ -129,6 +158,9 @@ function renderMyMap() {
         selected = index
         var layers = geojson.getLayers();
         info.update();
+        if (routes == true) {
+        changeRoute();
+        }
         for (let i = 0; i <layers.length; i++) {
             var layer = layers[i];
                 layer.setStyle(style(layer.feature));
@@ -158,6 +190,37 @@ function style(feature) {
         fillOpacity: 0.8,
         fillColor: getColor(featureProp)
     };
+}
+function route_style(feature) {
+    return {
+        weight: 0.5,
+        opacity: 1,
+        color: 'red'
+    };
+}
+function clear_route(feature) {
+    return {
+        weight: 0,
+        opacity: 0,
+    };
+}
+function toggleRoutes() {
+    if (routes == true) {   
+        routes = false;
+        selectedRoute.clearLayers();
+    }else {
+        routes = true;
+        changeRoute();
+    }
+
+}
+function changeRoute() {
+    selectedRoute.clearLayers();
+    console.log(selected)
+    selectedRoute = L.geoJson(routeData[selected], {
+        style: route_style
+    }).addTo(map);
+    
 }
 function findValue(feature) {
     let featureProp;
@@ -200,6 +263,7 @@ function resetHighlight(e) {
     
     
 }
+
 function triggerHighlight() {
     var layers = geojson.getLayers();
     
