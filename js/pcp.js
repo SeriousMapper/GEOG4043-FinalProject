@@ -23,10 +23,10 @@
       .color(color)
       .alpha(0.4);
 
-    d3.csv('data/tractscleancopy_pcp_revised.csv', function(data) {
+    d3.csv('data/tracts_csv_final3.csv', function(data) {
       parcoords
         .data(data)
-        .hideAxis(["GEOID_D", "TARGET_FID_12", "FIPS"])
+        .hideAxis(["GEOID_D", "TARGET_FID_12", "FIPS", "FREQAUG19D", "FREQSEP20D", "FREQPAND_1"])
         .render()
         .shadows()
         .reorderable()
