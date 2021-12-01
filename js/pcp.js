@@ -11,12 +11,12 @@
     //   .createAxes();
     var dataLoad;
     var colorscale = d3.scale.linear()
-      .domain([10, 450, 702]) //use d3 max
-      .range(["red", "orange", "yellow"])
+      .domain([-50, 0, 15]) //use d3 max
+      .range(["#f5191c", "#eacb2b", "#3b99b1"])
       .interpolate(d3.interpolateLab);
 
     var color = function(d) {
-      return colorscale(d['TARGET_FID_12'])
+      return colorscale(d['Percent Change Pan'])
     }
 
     var parcoords = d3.parcoords()('#pcp')
@@ -38,14 +38,14 @@
         // console.log(d.FIPS);
         // })
         //.attr("id", function(data) { return data.States + "line"})
-        
+
         parcoords.on("brush", function(d) {
         //console.log(d3.select(this));
         generateFIPS(d);
         })
         dataLoad = data;
 
-        
+
       // .on({
       //   "mouseover": function(d) { parcoords.highlight([d]) },
       //   "mouseout": parcoords.unhighlight
@@ -61,7 +61,7 @@
     }
     function highlightLine() {
       parcoords.highlight([dataLoad[layerHighlight]]);
-      
+
     }
     function unhighlightLine() {
       parcoords.unhighlight([dataLoad[layerHighlight]]);
