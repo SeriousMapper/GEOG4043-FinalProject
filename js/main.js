@@ -276,10 +276,11 @@ function triggerHighlight() {
             
             
             layer.setStyle({ 
-                weight:5,
+                weight:0,
                 color: 'blue',
                 dashArray: "",
-                fillOpacity: 0.7
+                fillOpacity: 0.7,
+                fillColor: "red"
             });
         } else {
             layer.setStyle(style(layer.feature));
