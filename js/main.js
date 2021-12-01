@@ -41,7 +41,7 @@ function jQueryAjax(){
         }
     });
     //Loading Tracts Data...
-    $.ajax("data/TractsFinalGeoJson.json", {
+    $.ajax("data/CLIP_CLEAN_RTD.json", {
         dataType: "json",
         success: function(response){
             mydata = response;
