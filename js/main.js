@@ -4,7 +4,7 @@ var map;
 var geoJSON;
 var selected = 0;
 var selectedTracts = []
-var timePeriods = ["August 2019", "Pandemic", "September 2020"]
+var timePeriods = ["August 2019", "May 2020", "September 2020"]
 var routeData = [0,0,0]
 var selectedRoute;
 var routes = true;
@@ -96,7 +96,8 @@ function renderMyMap() {
     };
     legend.addTo(map);
     info.addTo(map);
-    yearInfo.addTo(map);
+    document.getElementById("btnBox").innerHTML = addYearInfo();
+    toggleRoutes();
     
     /* ----------------- L E G E N D ---------------------*/
     /* ----------------- WATERMARK ----------------------*/
@@ -143,16 +144,16 @@ function renderMyMap() {
 
 
     /*----------------Y e a r  C H O O S E R---------------------*/
-    yearInfo.onAdd = function (map) {
+    addYearInfo = function () {
         //"this" returns to info. 
-        this._div = L.DomUtil.create('div', 'info infoBox');
+        html = ""
         
         for (var i = 0; i < timePeriods.length; i++) {
-            this._div.innerHTML += '<button class="yearButton" onclick="yearClick('+i+')">' + timePeriods[i] + "</button>";
+            html += '<button class="yearButton" onclick="yearClick('+i+')">' + timePeriods[i] + "</button>";
         }
-        this._div.innerHTML += '<button class="yearButton" onclick="toggleRoutes()">' + "Toggle Routes" + "</button>";
+       html += '<button class="yearButton" id="routeToggle" onclick="toggleRoutes()">' + "Toggle Routes" + "</button>";
         //the following line calls info.update(props) function. Again, this refers to 'info' here
-        return this._div;
+        return html;
     };
     function yearClick (index) {
         selected = index
@@ -208,8 +209,10 @@ function toggleRoutes() {
     if (routes == true) {   
         routes = false;
         selectedRoute.clearLayers();
+        $("#routeToggle").css({'background-color' : 'white', 'color': 'black' })
     }else {
         routes = true;
+        $("#routeToggle").css({'background-color' : 'black', 'color': 'white' })
         changeRoute();
     }
 
@@ -256,8 +259,14 @@ function highlightFeature(e) {
 
 
 function resetHighlight(e) {
-    geojson.resetStyle(e.target);
+    /*geojson.resetStyle(e.target); */
     let layer = e.target
+    layer.setStyle({
+        weight: 0.2,
+        opacity: 1,
+        color: 'black',
+        fillOpacity: 0.8
+    });
     unhighlightLine();
 
     

@@ -41,8 +41,15 @@
 
         parcoords.on("brush", function(d) {
         //console.log(d3.select(this));
-        generateFIPS(d);
-        })
+        if (d.length < dataLoad.length) {
+          generateFIPS(d);
+        }else {
+          console.log(d.length)
+          selectedTracts = []
+          triggerHighlight();
+        }
+      }
+        )
         dataLoad = data;
 
 
