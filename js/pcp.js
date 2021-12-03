@@ -60,7 +60,12 @@
       triggerHighlight();
     }
     function highlightLine() {
-      parcoords.highlight([dataLoad[layerHighlight]]);
+      for(i=0; i <dataLoad.length; i++) {
+        if (dataLoad[i].TARGET_FID_12 == layerHighlight) {
+            parcoords.highlight([dataLoad[i]]);
+        }
+      }
+
 
     }
     function unhighlightLine() {
