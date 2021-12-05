@@ -147,11 +147,11 @@ function renderMyMap() {
     addYearInfo = function () {
         //"this" returns to info. 
         html = ""
-        
+        html += '<button class="yearButton" id="routeToggle" onclick="toggleRoutes()">' + "Toggle Routes" + "</button>";
         for (var i = 0; i < timePeriods.length; i++) {
             html += '<button class="yearButton" onclick="yearClick('+i+')">' + timePeriods[i] + "</button>";
         }
-       html += '<button class="yearButton" id="routeToggle" onclick="toggleRoutes()">' + "Toggle Routes" + "</button>";
+       
         //the following line calls info.update(props) function. Again, this refers to 'info' here
         return html;
     };
