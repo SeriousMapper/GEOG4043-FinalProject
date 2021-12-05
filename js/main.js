@@ -60,7 +60,8 @@ function renderMyMap() {
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-        maxZoom: 18,
+        minZoom: 9,
+        maxZoom: 15,
         id: 'mapbox/streets-v11',
         tileSize: 512,
         zoomOffset: -1,
@@ -155,6 +156,7 @@ function renderMyMap() {
         //the following line calls info.update(props) function. Again, this refers to 'info' here
         return html;
     };
+
     function yearClick (index) {
         selected = index
         var layers = geojson.getLayers();
@@ -195,7 +197,7 @@ function style(feature) {
 function route_style(feature) {
     return {
         weight: 0.5,
-        opacity: 1,
+        opacity: 0.5,
         color: 'red'
     };
 }

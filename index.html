@@ -37,9 +37,16 @@
         
         <h1 id="title">Socioeconomic Effects of COVID-19 RTD Bus Stop Changes</h1>
         <div id= "textBox">
-        <p>The following geovisualization shows the effect of certain socioeconomic variables (proportion of people of color, median household income, proportion unemployed, proportion did not work in the last 6 months, proportion of renters, average household size)
-          in relation to the amount of bus stops throughout a 6-month period of the specified time period (August 2019, May 2020 and September 2020).
+        <p> &nbsp;&nbsp;&nbsp;&nbsp; The following geovisualization shows the effect of certain socioeconomic variables (proportion of people of color, median household income, proportion unemployed, proportion that did not work in the last 6 months, proportion of renters, average household size)
+          in relation to the amount of bus stops throughout a 6-month period of the specified time period aggregated to the respective census tract (August 2019, May 2020 and September 2020). This census data was collected from 2014 to 2018, the aggregated bus stops were acquired through processing RTD GTFS data in R and ArcMap, and finally the routes were acquired
+          from the Regional Transportation District (RTD).
         </p>
+        <p> This app allows users to explore bus stop frequency to the aforementioned socioeconomic factors and allow them to make conclusions about how changing bus stop frequencies could potentially affect census tracts through the linked parallel coordinate plot. This tool enables the user to easily visualize the effects of the pandemic and public transportation via spatiotemporal elements.
+          </p>
+
+          This app could potentially serve as an exploratory tool to influence where bus stops are located in the Denver Metro Area to create more intuitive, accessible, and efficient bus routes. This visualization also allows users to see which areas with lower or higher socioeconomic status may have been affected by changes in RTD bus stop frequency throughout the COVID-19 pandemic.
+        </p>
+        <P>To visualize the effects of these changes, please click on the buttons below to query the desired time period (August 2019, May 2020, September 2020). To visualize the routes on top of the census tract data, please click "Toggle Routes". In addition to this, the parallel coordinate plot below allows you to 'scrub' and highlight the census tract data and the percent change of bus stops from the time period prior.</P>
       </div>
       </div>
       <div id ="btnBox"></div>
@@ -47,7 +54,7 @@
     </div>
     
   </div>
-    <div id="pcp" class="parcoords" style="width:100%;height:30vh"></div>
+    <div id="pcp" class="parcoords" style="width:98%;height:30vh; margin:auto; border-radius: 5px; background-color: rgb(247, 251, 252); border:2px solid black"></div>
     <script src="js/main.js">  </script>
     <script src="js/pcp.js">  </script>
 
