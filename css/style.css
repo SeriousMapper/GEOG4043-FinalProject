@@ -3,7 +3,8 @@ body {
     margin: 0;
     font-family: Open Sans;
     background-color: lightslategray;
-    width:100%;
+    width:1920px;
+    height:1080px;
 }
 
 #top_section {
@@ -26,7 +27,7 @@ body {
   margin-left: 10px;
   border-radius: 5px;
   background-color: rgb(247, 251, 252);
-  height: 600px;
+  height: auto;
   width:50%;
 }
 #map {
@@ -35,7 +36,7 @@ body {
   margin-bottom: 10px;
   margin-right: 10px;
   margin-left: 10px;
-  height: 600px;
+  height: auto;
   width: 1000px;
   flex: 0 1 auto;
 }
@@ -58,7 +59,7 @@ body {
 }
 #box {
   margin-bottom:0;
-  height:500px;
+  height:auto;
   margin:auto;
 }
 
