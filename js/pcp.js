@@ -16,7 +16,7 @@
       .interpolate(d3.interpolateLab);
 
     var color = function(d) {
-      return colorscale(d['Percent Change Pan'])
+      return colorscale(d['Percent Change Aug 2019 - May 2020'])
     }
 
     var parcoords = d3.parcoords()('#pcp')
