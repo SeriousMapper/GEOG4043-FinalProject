@@ -41,8 +41,8 @@ body {
   flex: 0 1 auto;
 }
 #textBox {
-  width:90%;
-  height:400px;
+  width:97%;
+  height:auto;
   margin:auto;
 }
 #btnBox {
