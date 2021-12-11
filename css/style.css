@@ -42,8 +42,7 @@ body {
 }
 #textBox {
   width:90%;
-  font-size: 10px;
-  height:auto;
+  height:400px;
   margin:auto;
 }
 #btnBox {
