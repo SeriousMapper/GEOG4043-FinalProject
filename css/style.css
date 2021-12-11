@@ -30,6 +30,19 @@ body {
   height: auto;
   width:50%;
 }
+#bottom_div {
+  flex-shrink: inherit;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: rgb(247, 251, 252);
+  height: auto;
+  width:98%;
+  padding:10px;
+} 
+
 #map {
   border-radius: 5px;
   margin-top: 10px;
@@ -44,6 +57,7 @@ body {
   width:97%;
   height:auto;
   margin:auto;
+  font-size: 14px;
 }
 #btnBox {
   flex: 0 0 auto;
@@ -61,6 +75,7 @@ body {
   margin-bottom:0;
   height:auto;
   margin:auto;
+  font-size: 14px;
 }
 
 #title {

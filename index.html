@@ -49,16 +49,8 @@
           This app could potentially serve as an exploratory tool to influence where bus stops are located in the Denver Metro Area to create more intuitive, accessible, and efficient bus routes. This visualization also allows users to see which areas with lower or higher socioeconomic status may have been affected by changes in RTD bus stop frequency throughout the COVID-19 pandemic.
         </p>
         <p> To visualize the effects of these changes, please click on the buttons below to query the desired time period (August 2019, May 2020, September 2020). To visualize the routes on top of the census tract data, please click "Toggle Routes". In addition to this, the parallel coordinate plot below allows you to 'scrub' and highlight the census tract data and the percent change of bus stops from the time period prior. Additional credit to Katie Taylor at CU Boulder for assisting with data collection and analysis!</P>
-        
-        <p>
-            We created two axes at the end of the pcp called ‘percent change May - September 2020’ and ‘percent change August 2019 and May 2020’ to quantify a percentage that demonstrates whether each census tract lost or gained bus stops during the pandemic. We specifically chose these dates based on when the pandemic started and what RTD data was most recently released. 
-        </p>
-       <p>
-        To change the positioning of the axes to more directly compare the distribution of points for two variables, click and drag the axis title over to any point on the PCP .The color classification scheme we used for the lines on the parallel coordinate plot are relative to the values of the last axis (Percent change between August 2019 and May 2020). We used a diverging color scheme (red to blue) where red = -100%, blue = +50%, yellow = below zero, and green = above zero.
-        </p>
-        <a href="https://youtu.be/ErQOKgbi538">YouTube Tutorial!</a>
-        <P> Jason-jami7880@colorado.edu // Jordan-jogo4411@colorado.edu // McClain-moma0500@colorado.edu // Jeremy-jemc1842@colorado.edu</P>
-        <p>Plug ins used: <a href="https://leafletjs.com/plugins.html">Leaflet </a> <a href="https://syntagmatic.github.io/parallel-coordinates/">Parallel Coordinates</a> <a href="https://mapshaper.org/">MapShaper</a> <a href="https://www.esri.com/en-us/arcgis/about-arcgis/overview/">ArcGIS</a> <a href="https://d3js.org/">Data Drivien Documents</a> <a href="https://www.rtd-denver.com/business-center/open-spatial-data">RTD Data</a> <a href="https://www.nhgis.org/">Census Tract Data</a> </p>
+        <p> Check out our <a href="https://youtu.be/ErQOKgbi538"> tutorial </a>for more information.</p>
+
       </div>
       </div>
       <div id ="btnBox"></div>
@@ -69,7 +61,19 @@
     <div id="pcp" class="parcoords" style="width:98%; height:25%; margin:auto; border-radius: 5px; background-color: rgb(247, 251, 252); border:2px solid black"></div>
     <script src="js/main.js">  </script>
     <script src="js/pcp.js">  </script>
-
+    <div id="bottom_div">
+      <div id="textBox">
+      <p>
+        We created two axes at the end of the pcp called ‘percent change May - September 2020’ and ‘percent change August 2019 and May 2020’ to quantify a percentage that demonstrates whether each census tract lost or gained bus stops during the pandemic. We specifically chose these dates based on when the pandemic started and what RTD data was most recently released. 
+    </p>
+   <p>
+    To change the positioning of the axes to more directly compare the distribution of points for two variables, click and drag the axis title over to any point on the PCP .The color classification scheme we used for the lines on the parallel coordinate plot are relative to the values of the last axis (Percent change between August 2019 and May 2020). We used a diverging color scheme (red to blue) where red = -100%, blue = +50%, yellow = below zero, and green = above zero.
+    </p>
+    <p>Authors:</p>
+    <P> Jason-jami7880@colorado.edu // Jordan-jogo4411@colorado.edu // McClain-moma0500@colorado.edu // Jeremy-jemc1842@colorado.edu</P>
+    <p>Plug ins used: <a href="https://leafletjs.com/plugins.html">Leaflet </a> <a href="https://syntagmatic.github.io/parallel-coordinates/">Parallel Coordinates</a> <a href="https://mapshaper.org/">MapShaper</a> <a href="https://www.esri.com/en-us/arcgis/about-arcgis/overview/">ArcGIS</a> <a href="https://d3js.org/">Data Drivien Documents</a> <a href="https://www.rtd-denver.com/business-center/open-spatial-data">RTD Data</a> <a href="https://www.nhgis.org/">Census Tract Data</a> </p>
+    </div>
+  </div>
     <!--put your initial page content here-->
 
     <!--you can also use this space for internal scripts;
