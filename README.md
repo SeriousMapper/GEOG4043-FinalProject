@@ -1,10 +1,7 @@
 # GEOG4043-FinalProject
-## Group 1 - Examining Whatever
+## Group 1 - Examining Socioeconomic of RTD Bus Stop Changes over the Pandemic
 
 =======
-Potatos are very good <br />
-Boil em, mash em, put them in a stew (Tolkien) <br />
-Edits are fun
 
 Title: GEOG4043 Final Project
 
